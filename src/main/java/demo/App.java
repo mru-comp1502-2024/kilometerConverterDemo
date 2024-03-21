@@ -21,6 +21,7 @@ public class App extends Application {
 
         // build the scene
         Scene scene = new Scene(parent);
+        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 
         // display the window
         stage.setTitle("kilometer converter");
